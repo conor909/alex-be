@@ -7,14 +7,15 @@
     "build": "strapi build",
     "deploy": "strapi deploy",
     "develop": "strapi develop",
+    "push": "yarn strapi transfer --to https://railwayapp-strapi-production-8774.up.railway.app/admin",
     "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.4.2",
-    "@strapi/plugin-users-permissions": "5.4.2",
-    "@strapi/strapi": "5.4.2",
+    "@strapi/plugin-cloud": "5.1.0",
+    "@strapi/plugin-users-permissions": "5.1.0",
+    "@strapi/strapi": "5.1.0",
     "better-sqlite3": "11.3.0",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
